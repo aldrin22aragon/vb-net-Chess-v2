@@ -1,0 +1,4 @@
+﻿
+
+Dont allow to move peaces if open check
+
