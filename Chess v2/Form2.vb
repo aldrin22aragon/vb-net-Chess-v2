@@ -41,6 +41,10 @@
             MsgBox("Please select promotion")
         End If
     End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
     'Sub createBoard()
     '    Dim height As Integer = 50
     '    Dim base As Integer = 10
