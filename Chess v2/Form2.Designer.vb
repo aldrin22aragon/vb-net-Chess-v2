@@ -32,6 +32,7 @@ Partial Class Form2
         Me.rookS = New Chess_v2.ChessBoardCell()
         Me.horseS = New Chess_v2.ChessBoardCell()
         Me.bishopS = New Chess_v2.ChessBoardCell()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'queen
@@ -40,7 +41,7 @@ Partial Class Form2
         Me.queen._defaultBgThemeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.queen._highlighted = False
         Me.queen._highlightedType = Chess_v2.ChessBoardCell.MoveType.NONE
-        Me.queen._highligtedBorderColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.queen._highligtedBorderColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.queen._PeaceColor = Chess_v2.ChessBoardCell.peaceColor.DARK
         Me.queen._PeaceType = Chess_v2.ChessBoardCell.peaceType.QUEEN
         Me.queen.BackColor = System.Drawing.Color.White
@@ -68,7 +69,7 @@ Partial Class Form2
         Me.rook._defaultBgThemeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.rook._highlighted = False
         Me.rook._highlightedType = Chess_v2.ChessBoardCell.MoveType.NONE
-        Me.rook._highligtedBorderColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.rook._highligtedBorderColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.rook._PeaceColor = Chess_v2.ChessBoardCell.peaceColor.DARK
         Me.rook._PeaceType = Chess_v2.ChessBoardCell.peaceType.ROOK
         Me.rook.BackColor = System.Drawing.Color.White
@@ -87,7 +88,7 @@ Partial Class Form2
         Me.horse._defaultBgThemeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.horse._highlighted = False
         Me.horse._highlightedType = Chess_v2.ChessBoardCell.MoveType.NONE
-        Me.horse._highligtedBorderColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.horse._highligtedBorderColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.horse._PeaceColor = Chess_v2.ChessBoardCell.peaceColor.DARK
         Me.horse._PeaceType = Chess_v2.ChessBoardCell.peaceType.HORSE
         Me.horse.BackColor = System.Drawing.Color.White
@@ -106,7 +107,7 @@ Partial Class Form2
         Me.bishop._defaultBgThemeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.bishop._highlighted = False
         Me.bishop._highlightedType = Chess_v2.ChessBoardCell.MoveType.NONE
-        Me.bishop._highligtedBorderColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.bishop._highligtedBorderColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.bishop._PeaceColor = Chess_v2.ChessBoardCell.peaceColor.DARK
         Me.bishop._PeaceType = Chess_v2.ChessBoardCell.peaceType.BISHOP
         Me.bishop.BackColor = System.Drawing.Color.White
@@ -125,7 +126,7 @@ Partial Class Form2
         Me.queenS._defaultBgThemeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.queenS._highlighted = False
         Me.queenS._highlightedType = Chess_v2.ChessBoardCell.MoveType.NONE
-        Me.queenS._highligtedBorderColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.queenS._highligtedBorderColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.queenS._PeaceColor = Chess_v2.ChessBoardCell.peaceColor.NONE
         Me.queenS._PeaceType = Chess_v2.ChessBoardCell.peaceType.QUEEN
         Me.queenS.BackColor = System.Drawing.SystemColors.ControlText
@@ -144,7 +145,7 @@ Partial Class Form2
         Me.rookS._defaultBgThemeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.rookS._highlighted = False
         Me.rookS._highlightedType = Chess_v2.ChessBoardCell.MoveType.NONE
-        Me.rookS._highligtedBorderColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.rookS._highligtedBorderColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.rookS._PeaceColor = Chess_v2.ChessBoardCell.peaceColor.NONE
         Me.rookS._PeaceType = Chess_v2.ChessBoardCell.peaceType.ROOK
         Me.rookS.BackColor = System.Drawing.SystemColors.ControlText
@@ -163,7 +164,7 @@ Partial Class Form2
         Me.horseS._defaultBgThemeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.horseS._highlighted = False
         Me.horseS._highlightedType = Chess_v2.ChessBoardCell.MoveType.NONE
-        Me.horseS._highligtedBorderColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.horseS._highligtedBorderColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.horseS._PeaceColor = Chess_v2.ChessBoardCell.peaceColor.NONE
         Me.horseS._PeaceType = Chess_v2.ChessBoardCell.peaceType.HORSE
         Me.horseS.BackColor = System.Drawing.SystemColors.ControlText
@@ -182,7 +183,7 @@ Partial Class Form2
         Me.bishopS._defaultBgThemeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.bishopS._highlighted = False
         Me.bishopS._highlightedType = Chess_v2.ChessBoardCell.MoveType.NONE
-        Me.bishopS._highligtedBorderColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
+        Me.bishopS._highligtedBorderColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer), CType(CType(105, Byte), Integer))
         Me.bishopS._PeaceColor = Chess_v2.ChessBoardCell.peaceColor.NONE
         Me.bishopS._PeaceType = Chess_v2.ChessBoardCell.peaceType.BISHOP
         Me.bishopS.BackColor = System.Drawing.SystemColors.ControlText
@@ -195,11 +196,21 @@ Partial Class Form2
         Me.bishopS.TabIndex = 0
         Me.bishopS.Visible = False
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(32, 108)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 2
+        Me.Button2.Text = "Button2"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(340, 147)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.bishop)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.horse)
@@ -226,4 +237,5 @@ Partial Class Form2
     Friend WithEvents rookS As ChessBoardCell
     Friend WithEvents horseS As ChessBoardCell
     Friend WithEvents bishopS As ChessBoardCell
+    Friend WithEvents Button2 As Button
 End Class
